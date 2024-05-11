@@ -33,7 +33,7 @@ jobs:
         with:
           url: https://vault.tjth.co
           method: jwt
-          role: kb
+          role: go-lambda-image-builder
           secrets: |
                 secret/data/container-registry/credentials OCI_USERNAME;
                 secret/data/container-registry/credentials OCI_PASSWORD;
