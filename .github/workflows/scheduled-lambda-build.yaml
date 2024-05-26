@@ -3,7 +3,8 @@ name: Scheduled Lambda Build
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Run yearly on 1st January
+    - cron: '0 0 1 1 *'
   push:
     branches:
       - main
